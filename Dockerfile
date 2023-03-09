@@ -1,5 +1,6 @@
 FROM debian:11-slim
-
+EXPOSE 443
+EXPOSE 80
 RUN apt-get update && apt-get install -y dialog apt-utils curl sudo systemd python2 xxd lsof
 
 ENV TERM xterm
