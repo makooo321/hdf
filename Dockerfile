@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM debian:11-slim
 
 RUN apt-get update && apt-get install -y dialog apt-utils curl sudo systemd python2 xxd lsof
 
